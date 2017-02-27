@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="75dp">
+
+    <TextView
+        android:id="@+id/task_title_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="4dp"
+        android:textSize="35sp"
+        android:textColor="@android:color/white"
+        />
+
+    <TextView
+        android:id="@+id/task_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="43dp"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:paddingStart="4dp"
+        android:paddingBottom="4dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        />
+
+    <ImageView
+        android:id="@+id/edit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_edit_task"
+        android:paddingTop="12dp"
+        android:paddingRight="24dp"
+        android:paddingLeft="4dp"
+        android:paddingStart="4dp"
+        android:paddingEnd="24dp"
+        android:layout_gravity="end"
+        android:background="@android:color/transparent"
+        />
+
+</FrameLayout>
