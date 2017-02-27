@@ -83,7 +83,7 @@ public class TaskRealmAdapter
         return vh;
     }
 
-    // When the realm item exists, a listener is set on it's edit button
+    // When the realm item exists, a listener is set on its edit button
     @Override
     public void onBindRealmViewHolder(ViewHolder viewHolder, final int position) {
         final TaskItem taskItem = realmResults.get(position);
